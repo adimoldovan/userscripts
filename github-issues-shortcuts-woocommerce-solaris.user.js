@@ -35,9 +35,10 @@
         const buttons = [
             { text: 'Solaris open issues', url: '?q=is%3Aissue+is%3Aopen+label%3A%22team%3A+Solaris%22+sort%3Acreated-desc+' },
             { text: 'Solaris high priority', url: '?q=is%3Aissue+is%3Aopen+label%3A%22team%3A+Solaris%22+label%3A%22priority%3A+high%22+sort%3Acreated-desc+' },
+            { text: 'Solaris high priority non flaky', url: '?q=is%3Aissue+is%3Aopen+label%3A%22team%3A+Solaris%22+label%3A%22priority%3A+high%22+-label%3A%22metric%3A+flaky+e2e+test%22+sort%3Acreated-desc+' },
             { text: 'Flaky test issues', url: '?q=is%3Aissue+is%3Aopen+label%3A%22metric%3A+flaky+e2e+test%22+sort%3Acreated-desc' },
             { text: 'Flaky test issues non-blocks', url: '?q=is%3Aissue+is%3Aopen+label%3A%22metric%3A+flaky+e2e+test%22+sort%3Acreated-desc+-label%3A%22test+type%3A+blocks-e2e%22' },
-            { text: 'Slate Flaky test issues', url: '?q=is%3Aissue+is%3Aopen+label%3A%22metric%3A+flaky+e2e+test%22+label%3A%22status%3A+stale%22+sort%3Aupdated-desc' },
+            { text: 'Stale Flaky test issues', url: '?q=is%3Aissue+is%3Aopen+label%3A%22metric%3A+flaky+e2e+test%22+label%3A%22status%3A+stale%22+sort%3Aupdated-desc' },
             { text: 'Vortex open issues', url: '?q=is%3Aissue+is%3Aopen+label%3A%22team%3A+Vortex%22+sort%3Acreated-desc+' },
         ];
 
