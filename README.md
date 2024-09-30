@@ -3,4 +3,4 @@ Collection of scripts that customize web pages. TTamperMonkey Chrome extension i
 
 # 
 
-[github-issues-shortcuts-woocommerce-solaris](https://github.com/adimoldovan/userscripts/raw/main/github-issues-shortcuts-woocommerce-solaris.js)
+[github-issues-shortcuts-woocommerce-solaris](https://github.com/adimoldovan/userscripts/raw/main/github-issues-shortcuts-woocommerce-solaris.user.js)
