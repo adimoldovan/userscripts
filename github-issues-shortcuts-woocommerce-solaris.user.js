@@ -3,7 +3,8 @@
 // @namespace    https://github.com/adimoldovan/userscripts
 // @version      0.5
 // @description  Add filter shortcut buttons to WooCommerce GitHub issues page, including filtered views
-// @match        https://github.com/woocommerce/woocommerce/issues*
+// @match        https://github.com/woocommerce/woocommerce/issues
+// @match        https://github.com/woocommerce/woocommerce/issues?q*
 // @grant        none
 // ==/UserScript==
 
