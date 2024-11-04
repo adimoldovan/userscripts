@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WooCommerce GitHub Issues Filter Shortcuts
 // @namespace    https://github.com/adimoldovan/userscripts
-// @version      0.6
+// @version      0.7
 // @description  Add filter shortcut buttons to WooCommerce GitHub issues page, including filtered views
 // @match        https://github.com/woocommerce/woocommerce/issues
 // @match        https://github.com/woocommerce/woocommerce/issues?q*
@@ -23,7 +23,7 @@
 
     // Function to add buttons
     function addFilterButtons() {
-        const issuesListHeader = document.querySelector("#repo-content-turbo-frame h1");
+        const issuesListHeader = document.querySelector("div[data-testid=\"list-header\"]");
         if (!issuesListHeader) return;
 
         // Check if buttons already exist
